@@ -308,7 +308,7 @@ margin-top:2rem;
 .varieties-image{
         max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    
     display: block;
     }
     .varieties-image{
@@ -325,6 +325,8 @@ margin-top:2rem;
     text-align: center;
     background-color: #F0F1EC;
     border: 1px solid #06C167;
+    padding: 30px 70px 60px 70px;
+    text-align: start;
 
     
 }
@@ -337,8 +339,11 @@ margin-top:2rem;
     margin-top: 2rem;
 }
 .varieties-btn{
-    
-    margin-top: 2rem;
+    border-color: transparent;
+    color: #06C167;
+    background-color:#F0EDE2 ;
+      margin-top: 2rem;
+    padding: 5px 35px 5px 7px ;
 }
 
 
@@ -431,9 +436,13 @@ margin-top:2rem;
 }
 
 
-
+.varieties{
+    align-items:normal;
+}
 .varieties-sub-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    gap: 0px;
 }
 .desc-two , .desc-four{
         order:1 ;
@@ -442,11 +451,14 @@ margin-top:2rem;
     order: 2;
 }
 
+
 .varieties-description{
     text-align: start;
-    padding: 70px;
+    /* padding: 70px; */
+    padding-bottom: 20px;
+  
     
-}
+    }
 }
 
 
@@ -462,6 +474,7 @@ margin-top:2rem;
     .container{
         max-width: 1320px;
     }
+ 
 }
 
 
