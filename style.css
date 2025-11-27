@@ -398,11 +398,42 @@ del{
 }
 .pop-buy{
     margin-top: 1rem;
-    padding: 0.5rem 4rem 0.5rem 4rem;
+    padding: 1rem 4rem 1rem 4rem;
     background-color: transparent;
     border:1px solid #06C167;
 }
 
+
+/* Veggie Section */
+.veggie-container{
+    height: 50vh; 
+    width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    background-image: url(./img/vaggie-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center;
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+  
+}
+.veggie-title{
+    margin-top: 7rem;
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+
+}
+.veggie-btn{
+    margin-top: 3rem;
+     padding: 1rem 4rem 1rem 4rem;
+    background-color:#06C167;
+   color: white;
+   border: none;
+}
 
 
 
