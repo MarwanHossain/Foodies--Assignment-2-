@@ -434,9 +434,75 @@ del{
    color: white;
    border: none;
 }
+/* Contact Section */
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:60px ;
+}
+
+.foodies{
+    text-align: center;
+}
+.foodies-title{
+    color: #06C167;
+}
+.foodies-para{
+    margin-top: 1rem;
+}
+.social-media{
+ margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
 
 
+.about-list{
+     margin-top: 1rem;
+    list-style: none;
+}
+.about-item{
+    margin-top: 0.5rem;
+}
+
+
+.company-list{
+     margin-top: 1rem;
+    list-style: none;
+}
+.company-item{
+     margin-top: 0.5rem;
+}
+
+
+
+.touch{
+    text-align: center;
+}
+.touch-para{
+     margin-top: 1rem;
+}
+form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.input-field{
+    height: 3rem;
+}
+.company-btn{
+    padding: 8px 65px;
+    background-color: #06C167;
+    border: none;
+    color: white;
+}
 /* Keep the contents in the center */
 .container{
     width: 100%;
@@ -559,7 +625,28 @@ del{
 }
 
 
+
+
+
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    align-items: normal;
 }
+.foodies-para, .touch-para{
+    text-align: start;
+}
+.social-media{
+    justify-content: start;
+}
+form{
+    flex-direction: row;
+}
+.company-btn{
+    padding: 16px 20px;
+}
+}
+
 
 
 
