@@ -503,6 +503,12 @@ form{
     border: none;
     color: white;
 }
+
+/* footer section */
+footer{
+    margin-top: 4rem;
+    text-align: center;
+}
 /* Keep the contents in the center */
 .container{
     width: 100%;
