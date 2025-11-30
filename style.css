@@ -133,11 +133,19 @@ padding: 15px 20px;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    flex-direction: column;
 
 }
-.brand-container img{
-   display: block;
+
+.brand-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
+/* .brand-container img{
+   display: block;
+} */
 
 /* feature section */
 .features{
@@ -151,7 +159,7 @@ padding: 15px 20px;
     display: grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
    gap: 2rem;  
-   padding-left: 5rem;
+
 }
 .feature {
     text-align: center;
@@ -531,6 +539,8 @@ footer{
     }
     .brand-container{
       justify-content: start;
+      flex-direction: row;
+      margin-top: 2em;
     }
     .features-container{
            display: grid;
